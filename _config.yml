@@ -74,7 +74,6 @@ deploy:
   repo: https://github.com/Keleir/keleir.github.io.git
   branch: master
 
-
 # JSON Content for Yilia
 jsonContent:
   meta: false
