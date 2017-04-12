@@ -4,6 +4,8 @@ date: 2016-05-16 14:32:06
 tags: [reading, books]
 ---
 
+![kite](https://github.com/Keleir/IMGDB/blob/master/Blog/the_kite_runner.jpg?raw=true)
+
 真正的男人不看诗——真主也禁止他们创作呢。真正的男人——真正的男孩——应该像爸爸小时候那样踢足球去，那才是值得付出热情的玩意儿。
 
 
