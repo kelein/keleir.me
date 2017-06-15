@@ -24,6 +24,7 @@ tags: [plan, point]
 - REST
 - serviceless
 
+<!-- more -->
 
 ## Deploy
 
