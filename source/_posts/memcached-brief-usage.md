@@ -6,6 +6,8 @@ tags: memcache
 
 ![memcached](http://memcached.org/images/memcached_banner75.jpg)
 
+<!-- more -->
+
 ### 1.安装memcached
 
 ```

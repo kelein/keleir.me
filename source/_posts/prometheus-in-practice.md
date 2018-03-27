@@ -8,6 +8,8 @@ tags: prometheus
 
 ![Archture](https://ordina-jworks.github.io/img/prometheus/prometheus-architecture.svg)
 
+<!-- more -->
+
 ## docker-composer
 
 > docker-compose.yml

@@ -6,11 +6,13 @@ tags: prometheus
 
 # Prometheus Storage
 
-On average, Prometheus uses only around 1-2 bytes per sample. Thus, to plan the capacity of a Prometheus server, you can use the rough formula:
+> On average, Prometheus uses only around 1-2 bytes per sample. Thus, to plan the capacity of a Prometheus server, you can use the rough formula:
 
 ```
 needed_disk_space = retention_time_seconds * ingested_samples_per_second * bytes_per_sample
 ```
+
+<!-- more -->
 
 ## Concepts
 
@@ -139,19 +141,15 @@ time="2017-11-20T03:58:23+08:00" level=error msg="Storage needs throttling. Scra
 
 ## Refers
 
-- ##### [KubeCon 2017 - Prometheus Takeaways](https://pracucci.com/kubecon-2017-prometheus-takeaways.html)
-- ##### [How much RAM does my Prometheus need for ingestion?](https://www.robustperception.io/how-much-ram-does-my-prometheus-need-for-ingestion/)
-- ##### [Writing a Time Series Database from Scratch](https://fabxc.org/tsdb/)
-- ##### [Continuous Improvement in Monitoring with Prometheus 2.0](https://www.opcito.com/continuous-improvement-in-monitoring-with-prometheus-2-0/)
-
-- ##### [剖析Prometheus的内部存储机制](http://www.cnblogs.com/vovlie/p/7709312.html)
-
-- ##### [LevelDB 实现分析](http://blog.jobbole.com/111792/)
+- [KubeCon 2017 - Prometheus Takeaways](https://pracucci.com/kubecon-2017-prometheus-takeaways.html)
+- [How much RAM does my Prometheus need for ingestion?](https://www.robustperception.io/how-much-ram-does-my-prometheus-need-for-ingestion/)
+- [Writing a Time Series Database from Scratch](https://fabxc.org/tsdb/)
+- [Continuous Improvement in Monitoring with Prometheus 2.0](https://www.opcito.com/continuous-improvement-in-monitoring-with-prometheus-2-0/)
+- [剖析Prometheus的内部存储机制](http://www.cnblogs.com/vovlie/p/7709312.html)
+- [LevelDB 实现分析](http://blog.jobbole.com/111792/)
 
 ## Research
 
 - Prometheus WAL Log
-
 - Chunk Data 
-
 - Snapshot 

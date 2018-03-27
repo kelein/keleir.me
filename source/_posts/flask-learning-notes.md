@@ -6,6 +6,8 @@ tags: [flask, route]
 
 ![flask](http://docs.jinkan.org/docs/flask/_images/logo-full.png)
 
+<!-- more -->
+
 ### 1.Flask Intor
 
 ```
@@ -35,8 +37,6 @@ def login():
     abort(401)
     this_is_never_executed()
 ```
-
-<!-- more -->
 
 ### 3.Session
 

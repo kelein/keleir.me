@@ -10,6 +10,7 @@ tags: [plan, point]
 - golang
 - tornado
 
+<!-- more -->
 
 ## Service
 
@@ -23,8 +24,6 @@ tags: [plan, point]
 - ceph
 - REST
 - serviceless
-
-<!-- more -->
 
 ## Deploy
 

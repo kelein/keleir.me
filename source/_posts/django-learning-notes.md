@@ -8,6 +8,8 @@ tags: django
 >官方网站：https://www.djangoproject.com/
 >开源地址：https://github.com/django/django
 
+<!-- more -->
+
 ### 2.Django Install
 
 #### (1) PIP安装

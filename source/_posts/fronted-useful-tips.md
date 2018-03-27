@@ -17,6 +17,8 @@ $(document).on("show.bs.modal", ".modal", function(){
 });
 ```
 
+<!-- more -->
+
 show.bs.modal: 在调用 show 方法后触发。	        
 ```
 $("#identifier").on('show.bs.modal', function(){//do sth. });
